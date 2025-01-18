@@ -21,7 +21,7 @@ def main():
     draw(coords, xmin, neval, fR, -5, 10, "Branin")
 
     print("Beale function:")
-    [xmin, f, neval, coords] = fireflyoptimization(fBe, 2, -4.5, 4.5)  # функция Розенброка
+    [xmin, f, neval, coords] = fireflyoptimization(fBe, 2, -4.5, 4.5)  # функция Била
     print('x_min = (', xmin[0], ',', xmin[1], '),', 'f_min = ', f, ', neval = ', neval)
     draw(coords, xmin, neval, fBe, -4.5, 4.5, "Beale")
 
