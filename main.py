@@ -25,7 +25,7 @@ def main():
     print('x_min = (', xmin[0], ',', xmin[1], '),', 'f_min = ', f, ', neval = ', neval)
     draw(coords, xmin, neval, fBe, -4.5, 4.5, "Beale")
 
-    print("Beale function:")
+    print("Sphere function:")
     [xmin, f, neval, coords] = fireflyoptimization(fSph, 3, -5.12, 5.12)  # функция сферы
     print('x_min = (', xmin[0], ',', xmin[1], ',', xmin[2], '),', 'f_min = ', f, ', neval = ', neval)
     draw(coords, xmin, neval, fSph, -5.12, 5.12, "Sphere", True)
